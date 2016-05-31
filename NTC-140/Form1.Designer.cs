@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Login = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Login
             // 
-            this.Login.Location = new System.Drawing.Point(25, 30);
+            this.Login.Location = new System.Drawing.Point(35, 27);
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(211, 74);
             this.Login.TabIndex = 0;
@@ -45,8 +46,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.Login);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
