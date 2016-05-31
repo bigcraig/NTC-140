@@ -24,7 +24,7 @@ namespace NTC_140
            
             Uri _uri = new Uri(modemIP);
             modem.Navigate(_uri, postData, contentType);
-            // you forgot to post username and password you FAT FUCK!!!
+           
             string modemURL = modemIP + tr069uri;
             modem.Navigate(modemURL);
 
